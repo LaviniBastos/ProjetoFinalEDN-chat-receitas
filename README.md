@@ -86,7 +86,9 @@ O Chef Bot facilita o dia a dia na cozinha, fornecendo sugestões de receitas pe
 
 7- A resposta é enviada do Amazon Bedrock para o Amazon Lex, que retorna o resultado ao usuário via CloudFront.
 
-# Requisitos Funcionais
+# Requisitos
+
+## Requisitos Funcionais
 
 - O chatbot deve permitir interações via texto e voz.
 - O usuário pode inserir uma lista de ingredientes para obter sugestões de receitas.
@@ -95,7 +97,7 @@ O Chef Bot facilita o dia a dia na cozinha, fornecendo sugestões de receitas pe
 - O chatbot deve oferecer suporte a perguntas frequentes sobre culinária.
 - A plataforma deve ser acessível via navegador e responsiva para dispositivos móveis.
 
-# Requisitos Não Funcionais
+## Requisitos Não Funcionais
 
 - O sistema deve responder às solicitações em até 2 segundos.
 - Os dados dos usuários devem ser armazenados de forma segura.
