@@ -2,6 +2,20 @@
 ## Chatbot de Receitas com IA e AWS
 #### Desenvolvemos neste projeto um chatbot interativo capaz de sugerir receitas criativas com base nos ingredientes que o usuário possui. O chatbot também permitirá que os usuários salvem suas receitas favoritas para acesso futuro.
 
+
+   
+
+
+# Equipe:
+- Scrum Master: 
+- Líder Técnica: 
+- Desenvolvedores: 
+- Arquitetura: 
+- Design: 
+
+## Objetivo do projeto
+#### Desenvolvemos neste projeto um chatbot interativo capaz de sugerir receitas criativas com base nos ingredientes que o usuário possui. O chatbot também permitirá que os usuários salvem suas receitas favoritas para acesso futuro.
+
 1. Índice
 2. Arquitetura
 3. Tecnologias Utilizadas
@@ -10,24 +24,11 @@
 6. Contribuidores
 7. Objetivo
    
-
-
-# Equipe:
-Scrum Master: 
-Líder Técnica: 
-Desenvolvedores: 
-Arquitetura: 
-Design: 
-
-
 # Arquitetura AWS
-
-
 
 
 # Tecnologias Utilizadas
 1. AWS Route 53
-
 
 2. AWS CloudFront
 
