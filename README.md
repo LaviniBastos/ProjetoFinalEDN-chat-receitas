@@ -31,44 +31,44 @@ O Chef Bot facilita o dia a dia na cozinha, fornecendo sugestões de receitas pe
 
 # Tecnologias Utilizadas
 
-#### **AWS Route 53** 
+### **AWS Route 53** 
 Registro de domínio do chatbot.
 
-#### **AWS CloudFront** 
+### **AWS CloudFront** 
 Distribuição escalável e de baixa latência do conteúdo do chatbot.
 
-#### **AWS Lex** 
+### **AWS Lex** 
 Criar o chatbot para interação via texto ou voz.
 
-#### **AWS Lambda**  Executa funções serverless para processar a lógica do chatbot, integrar o Bedrock e armazenar receitas favoritas.
+### **AWS Lambda**  Executa funções serverless para processar a lógica do chatbot, integrar o Bedrock e armazenar receitas favoritas.
 
-#### **Boto3** 
+### **Boto3** 
 Biblioteca Python para interagir com serviços AWS e modelos de IA.
 
-#### **Amazon Bedrock** 
+### **Amazon Bedrock** 
 Gera receitas dinamicamente com base nos ingredientes inseridos.
 
-#### **Amazon DynamoDB** 
+### **Amazon DynamoDB** 
 Banco de dados NoSQL para armazenar receitas favoritas e histórico de interação.
 
-#### **Amazon CloudWatch** 
+### **Amazon CloudWatch** 
 Monitoramento e registro de métricas e logs para análise de desempenho.
 
-#### **Amazon S3** 
+### **Amazon S3** 
 Armazena a base de conhecimento para consulta do Amazon Bedrock.
 
-#### **OpenSearch** 
+### **OpenSearch** 
 Organiza e retorna informações do S3 para o Amazon Bedrock.
 
 ## Segurança da Aplicação
 
-#### **AWS IAM**  
+### **AWS IAM**  
 Controle de acesso dos administradores.
 
-#### **AWS WAF**  
+### **AWS WAF**  
 Proteção contra ataques como SQL Injection.
 
-#### **AWS Shield**  
+### **AWS Shield**  
 Prevenção contra ataques DDoS.
 
 # Arquitetura AWS
