@@ -2,7 +2,7 @@
 
 ## Chatbot de Receitas com IA e AWS
 
-#Equipe
+# Equipe
 
 - Scrum Master:
 - Líder Técnica:
