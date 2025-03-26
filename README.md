@@ -1,6 +1,6 @@
 # Chef Bot 
 ## Chatbot de Receitas com IA e AWS
-####Um chatbot interativo que gera sugestões de receitas com base nos ingredientes que o usuário tem disponíveis. O sistema permite salvar receitas favoritas para consultas posterior.
+#### Desenvolvemos neste projeto um chatbot interativo capaz de sugerir receitas criativas com base nos ingredientes que o usuário possui. O chatbot também permitirá que os usuários salvem suas receitas favoritas para acesso futuro.
 
 1. Índice
 2. Arquitetura
@@ -10,9 +10,9 @@
 6. Contribuidores
 7. Objetivo
    
-Desenvolvemos neste projeto um chatbot capaz de sugerir receitas criativas com base nos ingredientes que o usuário possui. O chatbot também permitirá que os usuários salvem suas receitas favoritas para acesso futuro.
 
-Equipe
+
+# Equipe:
 Scrum Master: 
 Líder Técnica: 
 Desenvolvedores: 
