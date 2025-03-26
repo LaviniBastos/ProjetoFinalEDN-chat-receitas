@@ -1,76 +1,130 @@
-# Chef Bot 
-## Chatbot de Receitas com IA e AWS
+Chef Bot
 
----
+Chatbot de Receitas com IA e AWS
 
-# Equipe:
-- Scrum Master: 
-- Líder Técnica: 
-- Desenvolvedores: 
-- Arquitetura: 
-- Design: 
+Equipe
 
-## Objetivo do projeto
-#### Desenvolvemos neste projeto um chatbot interativo capaz de sugerir receitas criativas com base nos ingredientes que o usuário possui. O chatbot também permitirá que os usuários salvem suas receitas favoritas para acesso futuro.
+Scrum Master:
 
-1. Equipe
-2. Objetivo
-3. Índice
-4. Tecnologias Utilizadas
-5. Arquitetura
-6. Execução e Utilização
-7. Melhorias futuras
+Líder Técnica:
 
-# Tecnologias Utilizadas
+Desenvolvedores:
 
-1. AWS Route 53
+Arquitetura:
 
-2. AWS CloudFront
+Design:
 
-3. AWS Lex
-Utilizado para criar o chatbot, permitindo a interação do usuário via texto ou voz.
+Objetivo do Projeto
 
-4. AWS Lambda
-Executa funções serverless para processar a lógica do chatbot, integrar o Bedrock e armazenar receitas favoritas.
+O Chef Bot é um chatbot interativo projetado para sugerir receitas criativas com base nos ingredientes que o usuário possui. Além disso, permite que os usuários salvem suas receitas favoritas para acesso futuro. O projeto utiliza tecnologias de Inteligência Artificial (IA) e serviços da AWS para oferecer interação eficiente e em tempo real.
 
-5. Boto3
-Biblioteca em python que interage com os modelos de IA  
+Índice
 
-6. Amazon Bedrock
-Usado para gerar receitas dinamicamente com base nos ingredientes inseridos pelo usuário, utilizando modelos de linguagem avançados.
+Equipe
 
-7. Amazon DynamoDB
-Banco de dados NoSQL para armazenar receitas favoritas e histórico de interação dos usuários.
+Objetivo do Projeto
 
-8. Amazon CloudWatch
-    
-9. Amazon S3
-Armazena a base de conhecimento para que o modelo de IA do bedrock busque as informações de receita que o usuário precisa
+Tecnologias Utilizadas
 
-10 - OpenSearch
+Arquitetura AWS
 
-Para  garantir a segurança da aplicação:
-11. IAM
-12. WAF
-13. Shield  
+Execução e Utilização
+
+Requisitos Funcionais
+
+Requisitos Não Funcionais
+
+Melhorias Futuras
+
+Tecnologias Utilizadas
+
+AWS Route 53 - Registro de domínio do chatbot.
+
+AWS CloudFront - Distribuição escalável e de baixa latência do conteúdo do chatbot.
+
+AWS Lex - Criar o chatbot para interação via texto ou voz.
+
+AWS Lambda - Executa funções serverless para processar a lógica do chatbot, integrar o Bedrock e armazenar receitas favoritas.
+
+Boto3 - Biblioteca Python para interagir com serviços AWS e modelos de IA.
+
+Amazon Bedrock - Gera receitas dinamicamente com base nos ingredientes inseridos.
+
+Amazon DynamoDB - Banco de dados NoSQL para armazenar receitas favoritas e histórico de interação.
+
+Amazon CloudWatch - Monitoramento e registro de métricas e logs para análise de desempenho.
+
+Amazon S3 - Armazena a base de conhecimento para consulta do Amazon Bedrock.
+
+OpenSearch - Organiza e retorna informações do S3 para o Amazon Bedrock.
+
+Segurança da Aplicação
+
+AWS IAM - Controle de acesso dos administradores.
+
+AWS WAF - Proteção contra ataques como SQL Injection.
+
+AWS Shield - Prevenção contra ataques DDoS.
+
+Arquitetura AWS
 
 
-# Arquitetura AWS
 
-![Captura de tela 2025-03-26 155726](https://github.com/user-attachments/assets/0ff5a7d6-3558-4275-a82e-222b031e9d39)
+Execução e Utilização
 
+Fluxo da estrutura do chatbot com a integração dos serviços:
 
-# Execução e Utilização
+O usuário acessa a aplicação pelo Route 53 e CloudFront.
 
-Fluxo da estrutura do Chatbot com a integração dos serviços:
+O usuário interage com o Amazon Lex via texto ou voz.
 
+O Amazon Lex aciona uma função AWS Lambda para processar a entrada.
 
+Logs e métricas são registrados no Amazon CloudWatch para monitoramento.
 
+A função AWS Lambda salva a solicitação no Amazon DynamoDB, conforme necessário.
 
+A função AWS Lambda solicita ao Amazon Bedrock a geração de uma receita baseada nos ingredientes fornecidos.
 
+O Amazon Bedrock consulta o OpenSearch, que busca informações no Amazon S3.
 
-# Melhorias futuras
-- Em um futuro próximo, enviar semanalmente ou até diariamente por e-mail para um cliente cadastrado ou assinante, receitas novas e diferentes para ele se manter atualizado e sempre com idéias do que cozinhar.
+A resposta é enviada do Amazon Bedrock para o Amazon Lex, que retorna o resultado ao usuário via CloudFront.
+
+Requisitos Funcionais
+
+O chatbot deve permitir interações via texto e voz.
+
+O usuário pode inserir uma lista de ingredientes para obter sugestões de receitas.
+
+Possibilidade de salvar receitas favoritas.
+
+As receitas devem ser geradas dinamicamente com base nos ingredientes informados.
+
+O chatbot deve oferecer suporte a perguntas frequentes sobre culinária.
+
+A plataforma deve ser acessível via navegador e responsiva para dispositivos móveis.
+
+Requisitos Não Funcionais
+
+O sistema deve responder às solicitações em até 2 segundos.
+
+Os dados dos usuários devem ser armazenados de forma segura.
+
+A arquitetura deve ser escalável para suportar um grande número de usuários simultâneos.
+
+O chatbot deve ter alta disponibilidade e ser resiliente a falhas.
+
+O monitoramento dos serviços deve ser realizado continuamente via CloudWatch.
+
+Melhorias Futuras
+
+Implementar um sistema de recomendação personalizado baseado no histórico de interação do usuário.
+
+Envio periódico de receitas personalizadas por e-mail para usuários cadastrados.
+
+Integração com assistentes de voz como Alexa e Google Assistant.
+
+Expansão do chatbot para sugestões de harmonização de vinhos e bebidas.
 
 
 
