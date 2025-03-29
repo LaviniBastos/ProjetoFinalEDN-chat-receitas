@@ -6,9 +6,10 @@
 
 - Scrum Master:
 - Líder Técnica:
-- Desenvolvedores:
+- Desenvolvedores: 
 - Arquitetura: [Lavini Bastos](https://www.linkedin.com/in/lavinibastos/)
 - Design:
+- Documentação: 
 
 # Objetivo do Projeto
 
