@@ -1,36 +1,31 @@
-# Chef Bot
+# 🍲🤖 Chatbot de Receitas com IA e AWS
 
-## Chatbot de Receitas com IA e AWS
+<p align="center"><i>Um chatbot interativo que gera sugestões de receitas com base nos ingredientes que o usuário tem disponíveis. O sistema permite salvar receitas favoritas para consulta posterior.</i></p>
 
-# Equipe
+## 📖 Índice
 
-- Scrum Master:
-- Líder Técnica:
-- Desenvolvedores: 
-- Arquitetura: [Lavini Bastos](https://www.linkedin.com/in/lavinibastos/)
-- Design:
-- Documentação: 
+1. [🏛️ Arquitetura](#-arquitetura-preliminar-aws)
+2. [🛠️ Tecnologias Utilizadas](#-tecnologias-utilizadas)
+3. [🚀 Execução e Utilização](#-execucao-e-utilizacao)
+4. [🧱 Requisitos](#-requisitos)
+5. [🚧 Melhorias Futuras](#-melhorias-futuras)
+6. [👥 Contribuidores](#-contribuidores)
 
-# Objetivo do Projeto
+
+## 🌟 Objetivo
 
 O Chef Bot é um chatbot interativo projetado para sugerir receitas criativas com base nos ingredientes que o usuário possui. Além disso, permite que os usuários salvem suas receitas favoritas para acesso futuro. O projeto utiliza tecnologias de Inteligência Artificial (IA) e serviços da AWS para oferecer interação eficiente e em tempo real.
 
-# Proposta de valor
+
+### Proposta de valor
 
 O Chef Bot facilita o dia a dia na cozinha, fornecendo sugestões de receitas personalizadas com base nos ingredientes disponíveis. Ele otimiza o tempo dos usuários, reduz o desperdício de alimentos e incentiva a criatividade culinária. Além disso, a integração com a AWS garante escalabilidade, segurança e alto desempenho para a aplicação.
 
-# Índice
+## 🏛️ Arquitetura Preliminar AWS
 
-1. Equipe
-2. Objetivo do Projeto
-3. Tecnologias Utilizadas
-4. Arquitetura AWS
-5. Execução e Utilização
-6. Requisitos Funcionais
-7. Requisitos Não Funcionais
-8. Melhorias Futuras
+![Captura de tela 2025-03-26 155726](https://github.com/user-attachments/assets/9acdd512-a7fd-4dbf-9ce2-63a77c510ed4)
 
-# Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 ### **AWS Route 53** 
 Registro de domínio do chatbot.
@@ -72,14 +67,8 @@ Proteção contra ataques como SQL Injection.
 ### **AWS Shield**  
 Prevenção contra ataques DDoS.
 
-# Arquitetura AWS
 
-
-![Captura de tela 2025-03-26 155726](https://github.com/user-attachments/assets/9acdd512-a7fd-4dbf-9ce2-63a77c510ed4)
-
-
-
-# Execução e Utilização
+## 🚀 Execução e Utilização
 
 ## Fluxo da estrutura do chatbot com a integração dos serviços:
 
@@ -99,9 +88,9 @@ Prevenção contra ataques DDoS.
 
 7- A resposta é enviada do Amazon Bedrock para o Amazon Lex, que retorna o resultado ao usuário via CloudFront.
 
-# Requisitos
+## 🧱 Requisitos
 
-## Requisitos Funcionais
+### Requisitos Funcionais
 
 - O chatbot deve permitir interações via texto e voz.
 - O usuário pode inserir uma lista de ingredientes para obter sugestões de receitas.
@@ -110,7 +99,7 @@ Prevenção contra ataques DDoS.
 - O chatbot deve oferecer suporte a perguntas frequentes sobre culinária.
 - A plataforma deve ser acessível via navegador e responsiva para dispositivos móveis.
 
-## Requisitos Não Funcionais
+### Requisitos Não Funcionais
 
 - O sistema deve responder às solicitações em até 2 segundos.
 - Os dados dos usuários devem ser armazenados de forma segura.
@@ -118,7 +107,7 @@ Prevenção contra ataques DDoS.
 - O chatbot deve ter alta disponibilidade e ser resiliente a falhas.
 - O monitoramento dos serviços deve ser realizado continuamente via CloudWatch.
 
-# Melhorias Futuras
+## 🚧 Melhorias Futuras
 
 - Implementar um sistema de recomendação personalizado baseado no histórico de interação do usuário.
 
@@ -129,6 +118,70 @@ Prevenção contra ataques DDoS.
 - Expansão do chatbot para sugestões de harmonização de vinhos e bebidas.
 
 
+## 👥 Contribuidores
 
+- Scrum Master: Talyta e Lavini
+- Líder Técnica: Olivia Oliva
+- Desenvolvedores: Daniel e Talyta
+- Arquitetura: Lavini Bastos
+- Design: Daniel Villegas
+- Documentação: Débora e Leonardo
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Daniel-Marim" title="GitHub">
+        <img src="https://avatars.githubusercontent.com/u/186893500?v=4" width="100px;" alt="Foto Daniel"/><br>
+        <sub>
+          <b>Daniel Marim</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/DevDan7" title="GitHub">
+        <img src="https://avatars.githubusercontent.com/u/152210372?v=4" width="100px;" alt="Foto Daniel"/><br>
+        <sub>
+          <b>Daniel Villegas</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/deboralopesdev" title="GitHub">
+        <img src="https://avatars.githubusercontent.com/u/196735456?v=4" width="100px;" alt="Foto Debora"/><br>
+        <sub>
+          <b>Débora Lopes</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/LaviniBastos" title="GitHub">
+        <img src="https://avatars.githubusercontent.com/u/160741212?v=4" width="100px;" alt="Foto Lavini"/><br>
+        <sub>
+          <b>Lavini Bastos </b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/oliviaoliva" title="GitHub">
+        <img src="https://avatars.githubusercontent.com/u/89538707?v=4" width="100px;" alt="Foto Olivia"/><br>
+        <sub>
+          <b>Olivia Oliva</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Apenassam" title="GitHub">
+        <img src="https://avatars.githubusercontent.com/u/176727412?v=4" width="100px;" alt="Foto Talyta Sampaio"/><br>
+        <sub>
+          <b>Talyta Sampaio</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+📌 **Versão 1.0**
 
 
