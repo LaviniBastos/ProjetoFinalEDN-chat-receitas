@@ -1,0 +1,153 @@
+/* Estilos gerais */
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho do chat */
+.chat-header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título do chat */
+.chat-header h2 {
+    margin: 0;
+}
+
+/* Logo abaixo do título */
+.chat-header .logo {
+    width: 85px;
+    border-radius: 45px;
+    height: auto;
+    margin-top: 1px; /* Espaçamento entre o título e a logo */
+}
+
+/* Caixa de mensagens */
+.chat-box {
+    padding: 20px;
+    height: 255px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    flex-grow: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo das mensagens */
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+    color: #333;
+    align-self: flex-start;
+}
+.bot-message img {
+    width: 30px;  /* Tamanho da imagem do bot */
+    height: 30px;
+    border-radius: 50%;  /* Deixa a imagem redonda */
+    margin-right: 10px;
+}
+
+.user-message {
+    background-color: #4CAF50;
+    color: #fff;
+    align-self: flex-end;
+}
+
+/* Caixa de input */
+.chat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.chat-input button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividade */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px;
+    }
+    
+    .chat-input input {
+        font-size: 12px;
+    }
+    
+    .chat-header h2 {
+        font-size: 18px;
+    }
+}
+
+
+/* Estilo dos botões */
+.recipe-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.recipe-button:hover {
+    background-color: #45a049;
+}
+
+.recipe-button:active {
+    background-color: #3e8e41;
+}
